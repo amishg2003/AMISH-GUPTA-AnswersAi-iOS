@@ -14,6 +14,11 @@
 		BA2C8F3C2CFFF114004DFC27 /* RunnaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C8F3B2CFFF114004DFC27 /* RunnaDemoTests.swift */; };
 		BA2C8F462CFFF114004DFC27 /* RunnaDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C8F452CFFF114004DFC27 /* RunnaDemoUITests.swift */; };
 		BA2C8F482CFFF114004DFC27 /* RunnaDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C8F472CFFF114004DFC27 /* RunnaDemoUITestsLaunchTests.swift */; };
+		BA2C8F562CFFF2F7004DFC27 /* RunnaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2C8F542CFFF2F7004DFC27 /* RunnaLogo.png */; };
+		BA2C8F572CFFF2F7004DFC27 /* RunnaCover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BA2C8F552CFFF2F7004DFC27 /* RunnaCover.jpeg */; };
+		BAAC45792D02E51F00AE5719 /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC45782D02E51F00AE5719 /* AppCard.swift */; };
+		BAAC457B2D02E55500AE5719 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC457A2D02E55500AE5719 /* FullScreenView.swift */; };
+		BAAC457D2D02E5C500AE5719 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC457C2D02E5C500AE5719 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		BA2C8F412CFFF114004DFC27 /* RunnaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2C8F452CFFF114004DFC27 /* RunnaDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnaDemoUITests.swift; sourceTree = "<group>"; };
 		BA2C8F472CFFF114004DFC27 /* RunnaDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnaDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA2C8F542CFFF2F7004DFC27 /* RunnaLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RunnaLogo.png; sourceTree = "<group>"; };
+		BA2C8F552CFFF2F7004DFC27 /* RunnaCover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RunnaCover.jpeg; sourceTree = "<group>"; };
+		BAAC45782D02E51F00AE5719 /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
+		BAAC457A2D02E55500AE5719 /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
+		BAAC457C2D02E5C500AE5719 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 				BA2C8F2A2CFFF112004DFC27 /* RunnaDemoApp.swift */,
 				BA2C8F2C2CFFF112004DFC27 /* ContentView.swift */,
 				BA2C8F2E2CFFF114004DFC27 /* Assets.xcassets */,
+				BAAC457C2D02E5C500AE5719 /* CardView.swift */,
+				BAAC457A2D02E55500AE5719 /* FullScreenView.swift */,
+				BAAC45782D02E51F00AE5719 /* AppCard.swift */,
+				BA2C8F552CFFF2F7004DFC27 /* RunnaCover.jpeg */,
+				BA2C8F542CFFF2F7004DFC27 /* RunnaLogo.png */,
 				BA2C8F302CFFF114004DFC27 /* Preview Content */,
 			);
 			path = RunnaDemo;
@@ -233,6 +248,8 @@
 			files = (
 				BA2C8F322CFFF114004DFC27 /* Preview Assets.xcassets in Resources */,
 				BA2C8F2F2CFFF114004DFC27 /* Assets.xcassets in Resources */,
+				BA2C8F572CFFF2F7004DFC27 /* RunnaCover.jpeg in Resources */,
+				BA2C8F562CFFF2F7004DFC27 /* RunnaLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2C8F2D2CFFF112004DFC27 /* ContentView.swift in Sources */,
+				BAAC457B2D02E55500AE5719 /* FullScreenView.swift in Sources */,
 				BA2C8F2B2CFFF112004DFC27 /* RunnaDemoApp.swift in Sources */,
+				BAAC45792D02E51F00AE5719 /* AppCard.swift in Sources */,
+				BAAC457D2D02E5C500AE5719 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
